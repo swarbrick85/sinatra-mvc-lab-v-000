@@ -2,8 +2,8 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
   
-  get '/newteam' do
-    erb :newteam
+  get '/user_input' do
+    erb :user_input
    end
    
    post '/team' do
